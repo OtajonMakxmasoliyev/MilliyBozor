@@ -1,0 +1,107 @@
+main {
+  width: 100%;
+  border: 1px solid red;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+main section {
+  width: 66%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+main section div {
+  width: 1142px;
+  background: #FF1111;
+  border-radius: 15px;
+  padding: 40px 62px;
+  box-sizing: border-box;
+}
+main section div p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+main section div strong {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 50px;
+  /* identical to box height */
+  color: #FFFFFF;
+  margin: 0;
+}
+main section div input {
+  width: 369px;
+  height: 49px;
+  left: 62px;
+  top: 115px;
+  background: #FFFFFF;
+  border-radius: 5px;
+  border: none;
+}
+main section div input:focus {
+  outline: none;
+}
+main section > .titleSection {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+  color: #1D1D1D;
+  color: #111;
+}
+main section > .elonBlock {
+  height: 325px;
+  display: grid;
+  grid-template-columns: auto;
+}
+main section > .elonBlock input {
+  width: 594px;
+  height: 49px;
+  left: 62px;
+  top: 115px;
+  background: #FFFFFF;
+  border-radius: 5px;
+  border: none;
+}
+main section > .elonBlock input:focus {
+  outline: none;
+}
+main section > .elonBlock button {
+  width: 306px;
+  height: 49px;
+  left: 62px;
+  top: 115px;
+  background: #FFFFFF;
+  border-radius: 5px;
+  border: none;
+  font-size: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+main section > .elonBlock button:focus {
+  outline: none;
+}
+main section > .imgBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+main section > .imgBlock div {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+}/*# sourceMappingURL=style.css.map */

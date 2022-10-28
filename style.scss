@@ -1,0 +1,77 @@
+@use "./color" as dizayndan;
+
+
+
+
+
+
+main{
+    width: 100%;
+    border:1px solid red;
+    box-sizing:     border-box;
+    display: flex;
+    justify-content: center;
+    section{
+        width: 66%;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+
+        div{
+            @include dizayndan.blockDiz();
+            p{
+                @include dizayndan.info();
+               
+            }
+
+            strong{
+                @include dizayndan.title();
+                margin:0;
+            }
+
+            input{
+                @include dizayndan.inputDiz(369px)
+            }
+        }
+
+
+        &>.titleSection{
+            @include dizayndan.titleSection();
+            color: #111;
+        }
+
+        &>.elonBlock{
+            height: 325px;
+            display: grid;
+            grid-template-columns: auto;
+
+            input {
+                @include dizayndan.inputDiz(594px)
+            }
+            button{
+                @include dizayndan.inputDiz(306px);
+                font-size: 25px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif                
+            }
+           
+        }
+
+        &>.imgBlock{
+           display: flex;
+           flex-direction: column;
+           justify-content: space-between;
+
+            div{
+                width: 80%;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 30px;
+                padding: 0;
+            }
+        }
+    }
+}
+
+body{
+    margin: 0;
+}
